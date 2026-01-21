@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Linking to External CSS -->
     <link rel="stylesheet" href="style.css">
+    <!-- Linking to External JS -->
+    <script src="index.js"></script>
     <!-- Font from Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,7 +83,7 @@
             <div class="search-cart-container">
                 <!-- Search Input field -->
                 <div class="search-bar">
-                    <input type="text" placeholder="Search products..." class="search-input">
+                    <input type="text" placeholder="Search products..." class="search-input" onkeyup="searchProducts()">
                     <!-- Search button icon -->
                     <button class="search-btn">
                         <!-- SVG icon for search -->

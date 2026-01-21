@@ -17,6 +17,9 @@ body {
     font-family: "Manrope", sans-serif; /* Adding manrope fonts */
     padding-top: 70px; /* reserve space for fixed navbar */
 }
+html{
+    scroll-behavior: smooth;
+}
 /* NAVBAR */
 .logo-container {
     display: flex; /* Use flexbox for layout */
